@@ -1,0 +1,8 @@
+{
+    "editor.format.enable": true,
+    "editor.formatOnSabe": true,
+    "editor.formatOnPaste": true,
+    "edotor.quickSuggestions": true,
+    "editor.wordWrap": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
