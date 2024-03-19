@@ -1,7 +1,17 @@
-export default function Home() {
+// import Circles from '~/components/Circles';
+import Header from '~/components/Header';
+import Home from '~/components/Home';
+import About from '~/components/About';
+
+export default function HomePage() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="text-white border-metal">보다랩 홈페이지</div>
-        </main>
+        <div className="flex flex-col min-h-screen  max-w-[1920px] relative mx-auto">
+            <Header />
+            <main>
+                <Home />
+                <About />
+                <section>section03</section>
+            </main>
+        </div>
     );
 }
