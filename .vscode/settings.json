@@ -1,3 +1,9 @@
 {
-    "cSpell.words": ["BODA"]
+  "editor.tabSize": 4,
+  "editor.format.enable": true,
+  "editor.formatOnSabe": true,
+  "editor.formatOnPaste": true,
+  "edotor.quickSuggestions": true,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
